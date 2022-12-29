@@ -1,9 +1,6 @@
 function longest(s1, s2) {
-  // your code
-  let string = s1 + s2
-
   //Convert string to array
-  let newArray = string.split('')
+  let newArray = s1 + s2.split('')
 
   //Get unique values
   let unique = newArray.filter((item, i, ar) => ar.indexOf(item) === i)
